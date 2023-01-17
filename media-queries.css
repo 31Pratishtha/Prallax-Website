@@ -1,0 +1,53 @@
+@media screen and (max-width: 991px){
+    h2{
+        font-size: 1.5rem;
+    }
+
+    #img1{
+        min-height: 80vh;
+    }
+
+    #img1 h1{
+        font-size: 2rem;
+    }
+
+    .section{
+        font-size: 1.2rem;
+        padding: 20px 40px;
+    }
+    
+    #img2, #img3{
+        min-height: 70vh;
+    }
+}
+
+@media screen and (max-width: 767px){
+    h2{
+        font-size: 1.3rem;
+    }
+
+    #img1{
+        min-height: 60vh;
+    }
+
+    #img1 h1{
+        font-size: 1.5rem;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .section{
+        font-size: 1rem;
+        padding: 10px 30px;
+    }
+    
+    #img2, #img3{
+        min-height: 55vh;
+    }
+
+    #img2 h1, #img3 h1{
+        width: 100vw;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
